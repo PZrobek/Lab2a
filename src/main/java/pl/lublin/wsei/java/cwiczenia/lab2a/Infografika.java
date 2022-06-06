@@ -50,4 +50,13 @@ public class Infografika {
         else
             wysokosc = 0;
     }
+
+    public void print() {
+
+        System.out.print("\nInfografika: \ntytul: "+tytul
+                +"\nadres strony: "+adresStrony
+                +"\nadres grafiki: "+adresGrafiki
+                +"\nadres miniaturki: "+adresMiniaturki
+                +"\nrozmiary: "+szerokosc+"x"+wysokosc+"\n");
+    }
 }
