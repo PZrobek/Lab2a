@@ -22,8 +22,8 @@
       </Label>
       <ListView fx:id="lstInfografiki" layoutX="59.0" layoutY="196.0" prefHeight="358.0" prefWidth="367.0" />
       <TextField fx:id="txtAdresStrony" editable="false" layoutX="58.0" layoutY="580.0" prefHeight="25.0" prefWidth="549.0" />
-      <Button fx:id="btnPrzejdzDoStrony" layoutX="648.0" layoutY="576.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Button" />
-      <Button fx:id="btnPokazInfografike" layoutX="648.0" layoutY="473.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Button" />
+      <Button fx:id="btnPrzejdzDoStrony" layoutX="648.0" layoutY="576.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Załaduj" />
+      <Button fx:id="btnPokazInfografike" layoutX="648.0" layoutY="473.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Pokaż" />
       <ImageView fx:id="imgMiniaturka" fitHeight="224.0" fitWidth="307.0" layoutX="451.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>

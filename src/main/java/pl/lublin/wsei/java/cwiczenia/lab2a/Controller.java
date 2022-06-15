@@ -11,6 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 
@@ -43,6 +44,11 @@ public class Controller {
                     int index = new_val.intValue();
                     if (index != -1){
                         txtAdresStrony.setText(igList.infografiki.get(index).adresStrony);
+                        Image image = new Image(igList.infografiki.get(index).adresMiniaturki);
+                        imgMiniaturka.setImage(image);
+                    } else {
+                        txtAdresStrony.setText("");
+                        imgMiniaturka.setImage(null);
                     }
                 }
             }
